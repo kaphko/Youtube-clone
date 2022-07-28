@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <style>
+   .container {
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .all-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+   }
+  
+   .pfp {
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 9px;
+   }
+
+   .words {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-right: 120px;
+   }
+
+   .Name {
+    font-weight: bolder;
+    margin-bottom: 2px;
+   }
+
+   .des1 {
+    margin-bottom: 2px;
+    font-style: italic;
+   }
+
+   .des2 {
+    font-style: italic;
+   }
+
+   button {
+    height: 25px;
+    margin-top: 25px;
+    color: black;
+    background-color: aqua;
+    font-weight: bold;
+    cursor: pointer;
+   }
+ 
+    </style>
+
+    <html>
+      <div>
+        <div class="container">
+          <div class="all-elements">
+            <div> <img class="pfp" src="/thumbnails/beast 2.jpeg"> </div>
+            <div class="words" style="margin-right: 130px;">
+            
+              <div class="Name">Oliver</div>
+            
+              <div class="des1">The cat</div>
+            
+              <div class="des2">Popular</div>
+            </div>
+             <button class="follow-button">Follow</button>
+          </div>
+          <div class="all-elements">
+            <div class="pfp"> <img class="pfp" src="/thumbnails/boy 2.jpeg"> </div>
+            <div class="words">
+            
+              <div class="Name">Mimi</div>
+            
+              <div class="des1">sleepy cat</div>
+           
+              <div class="des2">Popular</div>
+            </div>
+            <button class="follow-button">Follow</button>
+          </div>
+          <div class="all-elements">
+            <div class="pfp"> <img class="pfp" src="/thumbnails/sniper2.jpeg"> </div>
+            <div class="words">
+            
+              <div class="Name">Rex</div>
+            
+              <div class="des1">Happy dog</div>
+            
+              <div class="des2">Popular</div>
+          </div>
+          <button class="follow-button">Follow</button>
+          </div>
+        </div>
+      </div>
+    </html>
+  </body>
+</html>
